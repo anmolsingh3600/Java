@@ -5,9 +5,7 @@ class object{
 	int width;
 	String color;
 	String companyname;
-	
-
-public static void main(String[] args)
+	public static void main(String[] args)
 {
 	object a1=new object();
 	
@@ -19,9 +17,4 @@ public static void main(String[] args)
       a1.companyname="axc";
       System.out.println("The chair name is "+a1.chairname +" its height is "+a1.height+" its weight is "+a1.weight+" its width is "+a1.width+" its color is "+a1.color+" its company name is "+a1.companyname );
       }
-
-
-
-
-
 }
